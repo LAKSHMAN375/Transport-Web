@@ -1,0 +1,112 @@
+    body {
+        background-image: url(backgr.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+    .marq {
+        width: 80%;
+        height: 100px;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        text-shadow: 1.5px 1.5px 2px black;
+        font-weight: bold;
+        margin-left: 150px;
+        border-radius: 50px;
+        margin-right: 150px;
+    }
+    
+    header {
+        padding: 30px;
+        color: rgb(190, 62, 7);
+        text-align: center;
+        font-size: large;
+    }
+    
+    #l1 {
+        padding-left: 38%;
+        font-size: large;
+    }
+    
+    #img1 {
+        display: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #btn1 {
+        font-size: medium;
+    }
+    
+    #btn2 {
+        font-size: medium;
+        margin-left: 60%;
+        margin-top: -20px;
+    }
+    
+    #btn1:hover,
+    #btn2:hover {
+        background-color: rgb(190, 62, 7);
+        color: aliceblue;
+    }
+    
+    #txt {
+        padding: 5px 10px;
+        font-size: medium;
+        cursor: pointer;
+    }
+    
+    #btn3 {
+        padding: 5px 20px;
+        margin-left: 50%;
+        font-size: medium;
+        margin-top: 10px;
+    }
+    
+    section {
+        display: block;
+        margin-left: 35%;
+        margin-right: auto;
+        width: 50%;
+        font-size: large;
+    }
+    
+    div {
+        display: block;
+    }
+    
+    .previous {
+        background-color: #f1f1f1;
+        border-radius: 50%;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+    
+    .previous:hover {
+        background-color: #ddd;
+    }
+    
+    #image {
+        margin-left: 50%;
+        font-size: medium;
+    }
+    
+    div {
+        margin-left: 38%;
+        font-size: large;
+    }
+    
+    #sub {
+        font-size: medium;
+    }
+    
+    label {
+        color: white;
+        cursor: pointer;
+    }
+    
+    input [type=file] {
+        color: hotpink;
+    }

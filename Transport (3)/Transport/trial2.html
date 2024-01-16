@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <input id="txt" type="text" list="types" onclick="Add(this)">
+    <datalist id="types" >
+        <option value="Hello">Hello</option>
+        <option value="New">New
+             <script> 
+                if(document.getElementById("types").value=="New")
+                alert("inside"); </script>
+        </option>
+    </datalist>
+
+    <script>
+        function Add(ele){
+        if(ele.value=="New"){
+            alert("hello");
+            var l=document.getElementById("types");
+            l.innerHTML+= ' <option value="Added" >Added</option> ';
+        }
+    }
+        function Add2(){
+    var t=document.getElementById("types");
+    var v=document.getElementById("txt");
+    var option=document.createElement('option');
+    option.value=v;
+    t.appendChild(option);
+}
+    
+        </script>
+    </body>
+</html>

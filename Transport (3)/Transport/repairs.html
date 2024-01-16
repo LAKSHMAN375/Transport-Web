@@ -1,0 +1,110 @@
+<html>
+<style>
+body{
+	background-image:url("backgr.JPG");
+            background-repeat:no-repeat;
+	background-size:100% 100%;
+   	background-attachement:scroll;
+   }
+h1{
+ text-align:center;
+ font-weight:bold;
+ font-size:60px;
+ font-style:normal;
+ color:brown;
+}
+div{
+  background-color:navyblue;
+  text-align: center;
+  width:880px;
+  height:1200px;
+  margin-left:180px;
+  padding-left:50px;
+}
+.mar{
+width:"100%";
+direction:"left";
+height:"100px";
+font-size:25px;
+color:white;
+font-weight:bold;
+margin-top:0px;
+margin-left:100px;
+margin-right:100px;
+}
+.myDiv {
+  border: 2px outset red;
+  background-color: white;
+  text-align: center;
+  width:600px;
+  height:150px;
+  margin:-50px 45px 75px 100px;
+ border-width:medium;
+box-shadow:6px 6px;
+}
+</style>
+<body>
+<button><a href="transport.html">Home</a></button><marquee class="mar" >VVIT BUS MANAGEMENT SYSTEM (Repairs)</marquee>
+<div>
+<div class="myDiv" style="margin-top:0px;">
+<label for="bus">Select Category:</label><select name="buses" id="bus">
+  <option value="vvit">vvit</option>
+  <option value="viva">viva</option>
+</select></br></br>
+Bus Id: <input style="margin-left:1px;" type="text"/></br></br>
+From:<input type="date" name="d" min="2007-01-01"></br></br>
+To:<input type="date" name="d2" max="2090-01-01"></br></br>
+</div>
+<div class="myDiv">
+<input type="checkbox" id="electric"/>Electrical Repairs
+<button id="bt" style="margin:10px 10px 10px 10px;">clear</button>
+<form>
+  <input type="checkbox" id="b" name="battery" value="">
+    Battery<label for="battery">  Cost:</label><input type="text" id="b"/></br></br>
+<input type="checkbox" id="sm" name="sm"/>
+    selfmotor&dinamo<label for="sm"> Cost:</label><input type="text" id="self&motor"/></br></br>
+<input type="checkbox" id="o" name="others" value="">
+   Others <label for="b" >Cost:</label><input type="text" id="o" name="o" value=""/></br></br>
+</form>
+</div></br>
+<div class="myDiv">
+<input type="checkbox" id="eng"/>Engine Repairs
+<button id="bt1" style="margin:10px 10px 10px 10px;">clear</button>
+<form>
+  <input type="checkbox" id="b" name="e">
+    Four Wheel Greasing    Cost:<input type="text" id="fwg" name="fwg"/></br></br>
+<input type="checkbox" id="saam" name="sa"/>
+    saam;asif   Cost:<input type="text" id="saam"/></br></br>
+<input type="checkbox" id="jbw" name="jbw" value="">
+   joints & bottom work    Cost:<input type="text" id="jtb" name="o" value=""/></br></br>
+</form>
+</div>
+<div class="myDiv" style="height:400px;">
+<input type="checkbox" id="eng1"/>Body repairs
+<button id="bt2" style="margin:10px 10px 10px 10px;">clear</button>
+<form>
+  <input type="checkbox" id="b1" name="e1">
+    Bus Body    Cost:<input type="text" id="bb" name="bb"/></br></br>
+<input type="checkbox" id="s" name="sa"/>
+    Springs   Cost:<input type="text" id="springs"/></br></br>
+<input type="checkbox" id="p" name="springs" value="">
+   Painting    Cost:<input type="text" id="pt" name="pt" value=""/></br></br>
+<input type="checkbox" id="gw" name="gw" value="">
+   Glass Work    Cost:<input type="text" id="g" name="g" value=""/></br></br>
+<input type="checkbox" id="s" name="seat" value="">
+   Seats    Cost:<input type="text" id="seats" name="seats" value=""/></br></br>
+<input type="checkbox" id="ty" name="ty" value="">
+   Tyres    Cost:<input type="text" id="tyres" name="tyres" value=""/></br></br>
+<input type="checkbox" id="st" name="st" value="">
+   Stikkering    Cost:<input type="text" id="stkk" name="stkk" value=""/></br></br>
+<input type="checkbox" id="r" name="radi" value="">
+   Painting    Cost:<input type="text" id="radiator" name="radiator" value=""/></br></br>
+</form>
+</div>
+<input type="submit" style="margin-left:0px 50px 0px 100px;"/></br></br>
+<button style="margin-left:0px 50px 0px 100px;">display</button>
+</div>
+<script>
+</script>
+</body>
+</html>

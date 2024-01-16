@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="quarterlytaxes.css">
+</head>
+<body>
+<button onclick="back()">Home</button></br>
+<marquee class="mar" >VVIT BUS MANAGEMENT SYSTEM    Quarterly Taxes</marquee>
+<div><div class="myDiv" style="margin-top:0px;">
+<label for="bus">Select Category:</label><select name="buses" id="bus">
+  <option value="vvit">vvit</option>
+  <option value="viva">viva</option>
+</select></br></br>
+Bus Id: <input style="margin-left:1px;" type="text"/></br></br>
+From:<input type="date" name="d" min="2007-01-01"></br></br>
+To:<input type="date" name="d2" max="2090-01-01"></br></br>
+Quarter tax: <input type="text" name="quar" id="qtax"/></br></br>
+Fixness: <input type="text" name="fi" id="fix"/></br></br>
+EIB Alteration: <input type="text" name="eiba" id="eib"/></br></br>
+termination: <input type="text" name="term" id="ter"/></br></br>
+RTA CON & transfer: <input type="text" name="rta" id="cot"/></br></br>
+RTA pe & green: <input type="text" name="rtapeg" id="pegr"/></br></br>
+Pollution: <input type="text" name="pollu" id="po"/></br></br>
+Toll Way: <input type="text" name="toll" id="tw"/></br></br>
+<input type="submit" style="margin-left:0px 50px 0px 100px;"/></br></br>
+<button style="margin-left:0px 50px 0px 100px;">display</button>
+</div>
+</body>
+</html>
+<script>
+function back()
+{
+ location.href="transport.html"
+}
+</script>
+</body>
+</html>

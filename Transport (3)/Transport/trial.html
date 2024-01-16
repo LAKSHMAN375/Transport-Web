@@ -1,0 +1,20 @@
+
+<html> 
+<body>
+<select id="types" onclick="Add(this)">
+    <?php 
+ echo "ok";
+ $host = "localhost";
+ $user = "root";
+ $password = "";
+ $database = "transport";
+ $conn = mysqli_connect($host, $user, $password, $database);
+ $sql = "SELECT opt from options ";
+$qry=mysqli_query($conn,$sql);
+ ?>
+</select>
+
+ 
+
+</body>
+</html>
